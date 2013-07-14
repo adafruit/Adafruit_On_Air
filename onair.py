@@ -28,7 +28,7 @@ pin = 4    # PowerSwitch Tail connects to this GPIO pin
 # 'uKey' is your Developer API key (request one at developer.ustream.tv).
 # 'uChannel' is Ustream channel to monitor.
 uKey     =  'PUT_USTREAM_DEVELOPER_API_KEY_KERE'
-uChannel =  'adafruit'
+uChannel =  'adafruit-industries'
 uUrl     = ('http://api.ustream.tv/json/channel/' + uChannel +
             '/getValueOf/status?key='             + uKey )
 
