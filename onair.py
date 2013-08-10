@@ -22,7 +22,7 @@
 import bisect, calendar, json, time, urllib
 import RPi.GPIO as GPIO
 
-pin = 4    # PowerSwitch Tail connects to this GPIO pin
+pin = 24   # PowerSwitch Tail connects to this GPIO pin
 
 # Ustream settings -----------------------------------------------------------
 # 'uKey' is your Developer API key (request one at developer.ustream.tv).
