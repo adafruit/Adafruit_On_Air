@@ -13,11 +13,6 @@
 # Resources:
 # http://www.adafruit.com/products/268
 # http://www.markertek.com/Studio-Gear/Studio-Warning-Lights-Signs.xhtml
-#
-# Note: PowerSwitch Tail CANNOT switch fluorescent or CFL bulbs or
-# fixtures ("inductive loads"), only incandescent or LEDs ("resistive
-# loads").  Before buying or making a studio warning sign, make sure it
-# uses a compatible lighting technology.
 
 import bisect, calendar, json, time, urllib
 import RPi.GPIO as GPIO
